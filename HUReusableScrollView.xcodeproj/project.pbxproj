@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04F351E91D5EAE6A00D568CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F351E81D5EAE6A00D568CD /* main.m */; };
+		04F351EC1D5EAE6A00D568CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F351EB1D5EAE6A00D568CD /* AppDelegate.m */; };
+		04F351EF1D5EAE6A00D568CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F351EE1D5EAE6A00D568CD /* ViewController.m */; };
+		04F351F21D5EAE6A00D568CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F351F01D5EAE6A00D568CD /* Main.storyboard */; };
+		04F351F41D5EAE6A00D568CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F351F31D5EAE6A00D568CD /* Assets.xcassets */; };
+		04F351F71D5EAE6A00D568CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F351F51D5EAE6A00D568CD /* LaunchScreen.storyboard */; };
+		04F352011D5EAFF500D568CD /* HUReusableScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F352001D5EAFF500D568CD /* HUReusableScrollView.m */; };
+		04F352041D5EBCEA00D568CD /* HUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F352031D5EBCEA00D568CD /* HUViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04F351E41D5EAE6A00D568CD /* HUReusableScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HUReusableScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F351E81D5EAE6A00D568CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04F351EA1D5EAE6A00D568CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04F351EB1D5EAE6A00D568CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04F351ED1D5EAE6A00D568CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04F351EE1D5EAE6A00D568CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04F351F11D5EAE6A00D568CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04F351F31D5EAE6A00D568CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04F351F61D5EAE6A00D568CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04F351F81D5EAE6B00D568CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F351FF1D5EAFF500D568CD /* HUReusableScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUReusableScrollView.h; sourceTree = "<group>"; };
+		04F352001D5EAFF500D568CD /* HUReusableScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUReusableScrollView.m; sourceTree = "<group>"; };
+		04F352021D5EBCEA00D568CD /* HUViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUViewController.h; sourceTree = "<group>"; };
+		04F352031D5EBCEA00D568CD /* HUViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04F351E11D5EAE6A00D568CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F351DB1D5EAE6900D568CD = {
+			isa = PBXGroup;
+			children = (
+				04F351E61D5EAE6A00D568CD /* HUReusableScrollView */,
+				04F351E51D5EAE6A00D568CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04F351E51D5EAE6A00D568CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04F351E41D5EAE6A00D568CD /* HUReusableScrollView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04F351E61D5EAE6A00D568CD /* HUReusableScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				04F351EA1D5EAE6A00D568CD /* AppDelegate.h */,
+				04F351EB1D5EAE6A00D568CD /* AppDelegate.m */,
+				04F351ED1D5EAE6A00D568CD /* ViewController.h */,
+				04F351EE1D5EAE6A00D568CD /* ViewController.m */,
+				04F352021D5EBCEA00D568CD /* HUViewController.h */,
+				04F352031D5EBCEA00D568CD /* HUViewController.m */,
+				04F351FF1D5EAFF500D568CD /* HUReusableScrollView.h */,
+				04F352001D5EAFF500D568CD /* HUReusableScrollView.m */,
+				04F351F01D5EAE6A00D568CD /* Main.storyboard */,
+				04F351F31D5EAE6A00D568CD /* Assets.xcassets */,
+				04F351F51D5EAE6A00D568CD /* LaunchScreen.storyboard */,
+				04F351F81D5EAE6B00D568CD /* Info.plist */,
+				04F351E71D5EAE6A00D568CD /* Supporting Files */,
+			);
+			path = HUReusableScrollView;
+			sourceTree = "<group>";
+		};
+		04F351E71D5EAE6A00D568CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04F351E81D5EAE6A00D568CD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04F351E31D5EAE6A00D568CD /* HUReusableScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F351FB1D5EAE6B00D568CD /* Build configuration list for PBXNativeTarget "HUReusableScrollView" */;
+			buildPhases = (
+				04F351E01D5EAE6A00D568CD /* Sources */,
+				04F351E11D5EAE6A00D568CD /* Frameworks */,
+				04F351E21D5EAE6A00D568CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HUReusableScrollView;
+			productName = HUReusableScrollView;
+			productReference = 04F351E41D5EAE6A00D568CD /* HUReusableScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04F351DC1D5EAE6900D568CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = hujewelz;
+				TargetAttributes = {
+					04F351E31D5EAE6A00D568CD = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 04F351DF1D5EAE6900D568CD /* Build configuration list for PBXProject "HUReusableScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04F351DB1D5EAE6900D568CD;
+			productRefGroup = 04F351E51D5EAE6A00D568CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04F351E31D5EAE6A00D568CD /* HUReusableScrollView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04F351E21D5EAE6A00D568CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F351F71D5EAE6A00D568CD /* LaunchScreen.storyboard in Resources */,
+				04F351F41D5EAE6A00D568CD /* Assets.xcassets in Resources */,
+				04F351F21D5EAE6A00D568CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04F351E01D5EAE6A00D568CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F352041D5EBCEA00D568CD /* HUViewController.m in Sources */,
+				04F351EF1D5EAE6A00D568CD /* ViewController.m in Sources */,
+				04F351EC1D5EAE6A00D568CD /* AppDelegate.m in Sources */,
+				04F351E91D5EAE6A00D568CD /* main.m in Sources */,
+				04F352011D5EAFF500D568CD /* HUReusableScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04F351F01D5EAE6A00D568CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F351F11D5EAE6A00D568CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04F351F51D5EAE6A00D568CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F351F61D5EAE6A00D568CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04F351F91D5EAE6B00D568CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04F351FA1D5EAE6B00D568CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04F351FC1D5EAE6B00D568CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HUReusableScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hujewelz.HUReusableScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04F351FD1D5EAE6B00D568CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HUReusableScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hujewelz.HUReusableScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04F351DF1D5EAE6900D568CD /* Build configuration list for PBXProject "HUReusableScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F351F91D5EAE6B00D568CD /* Debug */,
+				04F351FA1D5EAE6B00D568CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F351FB1D5EAE6B00D568CD /* Build configuration list for PBXNativeTarget "HUReusableScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F351FC1D5EAE6B00D568CD /* Debug */,
+				04F351FD1D5EAE6B00D568CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04F351DC1D5EAE6900D568CD /* Project object */;
+}
