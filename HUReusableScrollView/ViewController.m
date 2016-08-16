@@ -10,7 +10,7 @@
 #import "HUReusableScrollView.h"
 #import "HUViewController.h"
 
-@interface ViewController () <HUReusableScrollViewDataSource>
+@interface ViewController () <HUReusableScrollViewDataSource, HUReusableScrollViewDelegate>
 
 @property (nonatomic, strong) HUReusableScrollView *scrollView;
 
@@ -24,7 +24,9 @@
     
     _scrollView = [[HUReusableScrollView alloc] initWithFrame:self.view.bounds];
     _scrollView.dataSource = self;
+    _scrollView.delegate = self;
     [self.view addSubview:_scrollView];
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -45,17 +47,24 @@
         [self addChildViewController:vc];
         [vc didMoveToParentViewController:self];
     }
-    NSLog(@"page: %zd, id:%p",page, vc);
+    
     vc.view.backgroundColor = [self backgroundColorWithPage:page];
     vc.label.text = [NSString stringWithFormat:@"vc %zd", page];
     return vc;
 
 }
 
+- (void)reusableScrollView:(HUReusableScrollView *)reusableScrollView didScrollWithOffsetX:(CGFloat)offsetX {
+    NSLog(@"x: %.2f", offsetX);
+}
+
+- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
+    NSLog(@"--------------------------");
+}
+
 - (UIColor *)backgroundColorWithPage:(NSInteger)page {
     UIColor *color = page%2 ==0 ? [UIColor redColor] : [UIColor blueColor];
-    
-    
+
     return color;
 }
 

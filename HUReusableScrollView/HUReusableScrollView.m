@@ -51,7 +51,14 @@
     [self loadPage:0];
 }
 
+- (void)setDelegate:(id<HUReusableScrollViewDelegate>)delegate {
+    _delegate = delegate;
+    
+    self.scrollView.delegate = delegate;
+}
+
 - (void)loadPage:(NSInteger)page {
+
     if (self.currentPage && page == [self.currentPage integerValue]) {
         return;
     }
@@ -129,12 +136,15 @@
         return;
     }
     
+    if ([self.delegate respondsToSelector:@selector(reusableScrollView:didScrollWithOffsetX:)]) {
+        [_delegate reusableScrollView:self didScrollWithOffsetX:_scrollView.contentOffset.x];
+    }
+    
     NSInteger page = roundf(_scrollView.contentOffset.x / _scrollView.frame.size.width);
     page = MAX(page, 0);
     page = MIN(page, [self.dataSource numberOfRowsInReusableScrollView:self] - 1);
     [self loadPage:page];
     
-    NSLog(@"visibleContainers:%@, reusableContainers:%@", self.visibleContainers, self.reusableContainers);
 }
 
 - (NSMutableArray *)reusableContainers {

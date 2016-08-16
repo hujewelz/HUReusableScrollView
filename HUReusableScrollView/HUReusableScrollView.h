@@ -17,7 +17,10 @@
 
 - (id<HUReusableContainer>)dequeueReusableContainerAtPate:(NSInteger)page;
 
+- (void)loadPage:(NSInteger)page;
+
 @end
+
 
 @protocol HUReusableContainer <NSObject>
 
@@ -26,9 +29,12 @@
 @end
 
 @protocol HUReusableScrollView;
-@protocol HUReusableScrollViewDelegate <NSObject>
+@protocol HUReusableScrollViewDelegate <UIScrollViewDelegate>
 
-@property (nonatomic, strong) NSNumber *page;
+@optional
+- (void)reusableScrollView:(HUReusableScrollView *)reusableScrollView didScrollWithOffsetX:(CGFloat)offsetX;
+
+- (void)reusableScrollView:(HUReusableScrollView *)reusableScrollView didScrollToPage:(NSInteger)page;
 
 @end
 
